@@ -39,7 +39,7 @@ public class SoyFileType extends LanguageFileType {
     }
 
     public Icon getIcon() {
-        return IconLoader.getIcon("/com/shchekoldin/net.intellij/plugins/resources/icon.png");
+        return IconLoader.getIcon("/net/intellij/plugins/soy/resources/icon.png");
     }
 
 }
