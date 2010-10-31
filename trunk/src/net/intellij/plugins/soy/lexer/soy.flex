@@ -1,8 +1,8 @@
-package com.shchekoldin.intellijidea.plugins.lexer;
+package net.intellij.plugins.soy.lexer;
 
 import com.intellij.lexer.FlexLexer;
 import com.intellij.psi.tree.IElementType;
-import com.shchekoldin.intellijidea.plugins.SoyElementTypes;
+import net.intellij.plugins.soy.SoyElementTypes;
 
 %%
 
