@@ -5,6 +5,7 @@ import com.intellij.openapi.fileTypes.FileType;
 import com.intellij.openapi.fileTypes.SingleLazyInstanceSyntaxHighlighterFactory;
 import com.intellij.openapi.fileTypes.SyntaxHighlighter;
 import com.intellij.openapi.fileTypes.SyntaxHighlighterFactory;
+import net.intellij.plugins.soy.highlighter.SoyHighlighter;
 import org.jetbrains.annotations.NotNull;
 
 public class SoyLanguage extends Language {

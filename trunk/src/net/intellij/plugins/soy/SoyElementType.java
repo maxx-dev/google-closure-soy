@@ -12,9 +12,4 @@ public class SoyElementType extends IElementType {
         super(debugName, SoySupportLoader.SOY_FILE_TYPE.getLanguage());
     }
 
-    @Override
-    public String toString() {
-        return "XQuery:" + super.toString();
-    }
-
 }
