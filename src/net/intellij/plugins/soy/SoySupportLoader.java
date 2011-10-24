@@ -14,7 +14,7 @@ public class SoySupportLoader implements ApplicationComponent {
     // -------------------------------------------------------
 
     public void initComponent() {
-        FileTypeManager.getInstance().registerFileType(SOY_FILE_TYPE, SOY_FILE_TYPE.getDefaultExtension());
+        FileTypeManager.getInstance().associateExtension(SOY_FILE_TYPE, SOY_FILE_TYPE.getDefaultExtension());
     }
 
     public void disposeComponent() {

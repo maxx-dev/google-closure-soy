@@ -1,7 +1,7 @@
 package net.intellij.plugins.soy;
 
 import com.intellij.lang.Language;
-import com.intellij.openapi.fileTypes.FileType;
+import com.intellij.openapi.fileTypes.LanguageFileType;
 import com.intellij.openapi.fileTypes.SingleLazyInstanceSyntaxHighlighterFactory;
 import com.intellij.openapi.fileTypes.SyntaxHighlighter;
 import com.intellij.openapi.fileTypes.SyntaxHighlighterFactory;
@@ -35,7 +35,7 @@ public class SoyLanguage extends Language {
     }
 
     @Override
-    public FileType getAssociatedFileType() {
+    public LanguageFileType getAssociatedFileType() {
         return SoyFileType.getInstance();
     }
 
