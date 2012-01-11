@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <name>Google Closure Soy Templates</name>
     <description>Google Closure Soy Templates custom language plugin for IntelliJ IDEA</description>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
     <vendor email="vrungelru@gmail.com" url="http://shchekoldin.com/">Alexander Shchekoldin</vendor>
     <idea-version since-build="107.587" />
 

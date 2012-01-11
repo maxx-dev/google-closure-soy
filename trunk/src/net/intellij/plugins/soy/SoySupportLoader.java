@@ -1,5 +1,6 @@
 package net.intellij.plugins.soy;
 
+import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.components.ApplicationComponent;
 import com.intellij.openapi.fileTypes.FileTypeManager;
 import com.intellij.openapi.fileTypes.LanguageFileType;
@@ -14,7 +15,14 @@ public class SoySupportLoader implements ApplicationComponent {
     // -------------------------------------------------------
 
     public void initComponent() {
-        FileTypeManager.getInstance().associateExtension(SOY_FILE_TYPE, SOY_FILE_TYPE.getDefaultExtension());
+        ApplicationManager.getApplication().runWriteAction(new Runnable() {
+
+            @Override
+            public void run() {
+                FileTypeManager.getInstance().associateExtension(SOY_FILE_TYPE, SOY_FILE_TYPE.getDefaultExtension());
+            }
+
+        });
     }
 
     public void disposeComponent() {
