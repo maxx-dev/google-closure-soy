@@ -1,0 +1,1 @@
+Google Closure Soy Templates custom language plugin for IntelliJ IDEA
